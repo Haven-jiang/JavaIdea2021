@@ -32,7 +32,7 @@ public class unMap {
      */
     public void setSide(char[] line) {
         if (line.length % 2 != 0) return;
-        int index_x = 0, index_y = 0;
+        int index_x = -1, index_y;
         for (int x = 0; x < line.length; x++) {
             for (index_y = 0; index_y < vertex.length; index_y++) {
                 if (x % 2 == 0) if (line[x] == vertex[index_y]) {
@@ -41,8 +41,9 @@ public class unMap {
                 }if (x % 2 == 1) if (line[x] == vertex[index_y]) {
                     side[index_x][index_y] = side[index_y][index_x] =  1;
                     break;
-                }else if (index_y == vertex.length - 1) return;
+                }
             }
+            if (index_y == vertex.length) return;
         }
     }
 
@@ -82,7 +83,7 @@ public class unMap {
 
     public static void main(String[] args) {
         unMap un = new unMap(new char[]{'a', 'b', 'c', 'd', 'v', 'o'});
-        un.setSide(new char[]{'a', 'd', 'c', 'b', 'b', 'd', 'a', 'o'});
+        un.setSide(new char[]{'a', 'c', 'c', 'b', 'b', 'd', 'p', 'o'});
         System.out.println(un);
         //abc_test in 2021 8 09 10 13
     }
