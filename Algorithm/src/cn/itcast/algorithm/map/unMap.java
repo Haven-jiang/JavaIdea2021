@@ -85,5 +85,6 @@ public class unMap {
         un.setSide(new char[]{'a', 'd', 'c', 'b', 'b', 'd', 'a', 'o'});
         System.out.println(un);
         //test
+
     }
 }
