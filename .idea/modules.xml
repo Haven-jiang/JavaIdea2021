@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IDeaworkapace/IDeaworkapace.iml" filepath="$PROJECT_DIR$/IDeaworkapace/IDeaworkapace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaIdea2021.iml" filepath="$PROJECT_DIR$/JavaIdea2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLanguageTest/JavaLanguageTest.iml" filepath="$PROJECT_DIR$/JavaLanguageTest/JavaLanguageTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinimusicApp/MinimusicApp.iml" filepath="$PROJECT_DIR$/MinimusicApp/MinimusicApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NFofGuiApp/NFofGuiApp.iml" filepath="$PROJECT_DIR$/NFofGuiApp/NFofGuiApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampDome_2/SampDome_2.iml" filepath="$PROJECT_DIR$/SampDome_2/SampDome_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SinkaDotCom/SinkaDotCom.iml" filepath="$PROJECT_DIR$/SinkaDotCom/SinkaDotCom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SupertringDome/SupertringDome.iml" filepath="$PROJECT_DIR$/SupertringDome/SupertringDome.iml" />
+    </modules>
+  </component>
+</project>
